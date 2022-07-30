@@ -1,0 +1,13 @@
+# Target labels
+ libsecp256k1
+# Source files and their labels
+/home/shubh/libhotstuff/CMakeFiles/libsecp256k1
+/home/shubh/libhotstuff/CMakeFiles/libsecp256k1.rule
+/home/shubh/libhotstuff/CMakeFiles/libsecp256k1-complete.rule
+/home/shubh/libhotstuff/libsecp256k1-prefix/src/libsecp256k1-stamp/libsecp256k1-install.rule
+/home/shubh/libhotstuff/libsecp256k1-prefix/src/libsecp256k1-stamp/libsecp256k1-mkdir.rule
+/home/shubh/libhotstuff/libsecp256k1-prefix/src/libsecp256k1-stamp/libsecp256k1-download.rule
+/home/shubh/libhotstuff/libsecp256k1-prefix/src/libsecp256k1-stamp/libsecp256k1-update.rule
+/home/shubh/libhotstuff/libsecp256k1-prefix/src/libsecp256k1-stamp/libsecp256k1-patch.rule
+/home/shubh/libhotstuff/libsecp256k1-prefix/src/libsecp256k1-stamp/libsecp256k1-configure.rule
+/home/shubh/libhotstuff/libsecp256k1-prefix/src/libsecp256k1-stamp/libsecp256k1-build.rule
