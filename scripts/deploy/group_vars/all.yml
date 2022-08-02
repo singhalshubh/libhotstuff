@@ -11,7 +11,7 @@ ansible_user: ubuntu
 # remote directory that keeps the work directory for the running app
 testbed_prefix: "/home/ubuntu/testbed"
 # must use Python 3
-ansible_python_interpreter: /usr/bin/python3
+ansible_python_interpreter: /usr/bin/python3.6
 
 ## build config
 hs_flags: "-g -DHOTSTUFF_ENABLE_BENCHMARK"
