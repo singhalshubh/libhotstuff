@@ -1,6 +1,6 @@
 sudo apt-get update
 sudo apt purge -y python2.7
-sudo apt-get install -y libssl-dev libuv1-dev cmake make doxygen pkg-config autoconf libtool ansible
+sudo apt-get install -y libssl-dev libuv1-dev cmake make doxygen pkg-config autoconf libtool ansible aptitude
 sudo apt install -y graphviz software-properties-common
 sudo apt install -y python3-pip
 sudo pip3 install setuptools-rust

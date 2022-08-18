@@ -1,6 +1,7 @@
 #!/bin/bash
 
 basedir="$(dirname $(realpath "${BASH_SOURCE[0]}"))"
+
 export node_group=nodes
 export node_setup_group=nodes_setup
 export node_file="$basedir/nodes.ini"

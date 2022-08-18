@@ -1,0 +1,15 @@
+[nodes_setup]
+155.98.36.105
+155.98.36.109
+155.98.36.113
+155.98.36.118
+155.98.36.119
+
+[nodes]
+replica0 ansible_host=155.98.36.113 host_idx=0 extra_conf=hotstuff.gen-sec0.conf
+replica1 ansible_host=155.98.36.105 host_idx=0 extra_conf=hotstuff.gen-sec1.conf
+replica2 ansible_host=155.98.36.119 host_idx=0 extra_conf=hotstuff.gen-sec2.conf
+replica3 ansible_host=155.98.36.118 host_idx=0 extra_conf=hotstuff.gen-sec3.conf
+
+[clients]
+client0 ansible_host=155.98.36.109 host_idx=1 cid=0

@@ -2,9 +2,9 @@
 ## basic config
 
 ansible_connection: ssh
-ansible_user: ubuntu
+ansible_user: shubh
 # change to your aws ec2 key file here
-ansible_ssh_private_key_file: ~/.ssh/shubhhotstuff.pem
+ansible_ssh_private_key_file: ~/.ssh/id_rsa
 # process name that is used by killall in reset
 bin_name: node
 # remote directory that keeps the work directory for the running app

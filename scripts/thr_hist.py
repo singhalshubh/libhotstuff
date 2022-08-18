@@ -70,5 +70,4 @@ if __name__ == '__main__':
     print("lat = {:.3f}ms".format(sum(lats) / len(lats) * 1e3))
     lats, _ = remove_outliers(lats)
     print("lat = {:.3f}ms".format(sum(lats) / len(lats) * 1e3))
-    if args.plot:
-        plot_thr(args.output)
+    plot_thr(args.output)
