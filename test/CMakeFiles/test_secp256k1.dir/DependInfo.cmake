@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shubh/libhotstuff/test/test_secp256k1.cpp" "/home/shubh/libhotstuff/test/CMakeFiles/test_secp256k1.dir/test_secp256k1.cpp.o"
+  "/home/shubh/Desktop/libhotstuff/test/test_secp256k1.cpp" "/home/shubh/Desktop/libhotstuff/test/CMakeFiles/test_secp256k1.dir/test_secp256k1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,8 +21,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/shubh/libhotstuff/CMakeFiles/hotstuff_static.dir/DependInfo.cmake"
-  "/home/shubh/libhotstuff/salticidae/CMakeFiles/salticidae_static.dir/DependInfo.cmake"
+  "/home/shubh/Desktop/libhotstuff/CMakeFiles/hotstuff_static.dir/DependInfo.cmake"
+  "/home/shubh/Desktop/libhotstuff/salticidae/CMakeFiles/salticidae_static.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

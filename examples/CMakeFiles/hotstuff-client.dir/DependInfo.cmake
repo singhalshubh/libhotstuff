@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shubh/libhotstuff/examples/hotstuff_client.cpp" "/home/shubh/libhotstuff/examples/CMakeFiles/hotstuff-client.dir/hotstuff_client.cpp.o"
+  "/home/shubh/Desktop/libhotstuff/examples/hotstuff_client.cpp" "/home/shubh/Desktop/libhotstuff/examples/CMakeFiles/hotstuff-client.dir/hotstuff_client.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/shubh/libhotstuff/CMakeFiles/hotstuff_static.dir/DependInfo.cmake"
-  "/home/shubh/libhotstuff/salticidae/CMakeFiles/salticidae_static.dir/DependInfo.cmake"
+  "/home/shubh/Desktop/libhotstuff/CMakeFiles/hotstuff_static.dir/DependInfo.cmake"
+  "/home/shubh/Desktop/libhotstuff/salticidae/CMakeFiles/salticidae_static.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

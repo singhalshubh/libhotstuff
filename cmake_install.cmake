@@ -1,4 +1,4 @@
-# Install script for directory: /home/shubh/libhotstuff
+# Install script for directory: /home/shubh/Desktop/libhotstuff
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shubh/libhotstuff/salticidae/cmake_install.cmake")
-  include("/home/shubh/libhotstuff/test/cmake_install.cmake")
-  include("/home/shubh/libhotstuff/examples/cmake_install.cmake")
+  include("/home/shubh/Desktop/libhotstuff/salticidae/cmake_install.cmake")
+  include("/home/shubh/Desktop/libhotstuff/test/cmake_install.cmake")
+  include("/home/shubh/Desktop/libhotstuff/examples/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shubh/libhotstuff/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shubh/Desktop/libhotstuff/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

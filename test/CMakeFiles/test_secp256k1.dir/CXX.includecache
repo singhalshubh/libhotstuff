@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/shubh/libhotstuff/test/test_secp256k1.cpp
+/home/shubh/Desktop/libhotstuff/test/test_secp256k1.cpp
 hotstuff/crypto.h
-/home/shubh/libhotstuff/test/hotstuff/crypto.h
+/home/shubh/Desktop/libhotstuff/test/hotstuff/crypto.h
 
 include/hotstuff/config.h
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/shubh/libhotstuff/salticidae/include -I/home/shubh/libhotstuff/secp256k1/include -I/home/shubh/libhotstuff/. -I/home/shubh/libhotstuff/include 
+CXX_INCLUDES = -I/home/shubh/Desktop/libhotstuff/salticidae/include -I/home/shubh/Desktop/libhotstuff/secp256k1/include -I/home/shubh/Desktop/libhotstuff/. -I/home/shubh/Desktop/libhotstuff/include 
 

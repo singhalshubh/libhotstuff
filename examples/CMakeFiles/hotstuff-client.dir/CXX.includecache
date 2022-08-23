@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/shubh/libhotstuff/examples/hotstuff_client.cpp
+/home/shubh/Desktop/libhotstuff/examples/hotstuff_client.cpp
 cassert
 -
 random
@@ -18,19 +18,19 @@ signal.h
 sys/time.h
 -
 salticidae/type.h
-/home/shubh/libhotstuff/examples/salticidae/type.h
+/home/shubh/Desktop/libhotstuff/examples/salticidae/type.h
 salticidae/netaddr.h
-/home/shubh/libhotstuff/examples/salticidae/netaddr.h
+/home/shubh/Desktop/libhotstuff/examples/salticidae/netaddr.h
 salticidae/network.h
-/home/shubh/libhotstuff/examples/salticidae/network.h
+/home/shubh/Desktop/libhotstuff/examples/salticidae/network.h
 salticidae/util.h
-/home/shubh/libhotstuff/examples/salticidae/util.h
+/home/shubh/Desktop/libhotstuff/examples/salticidae/util.h
 hotstuff/util.h
-/home/shubh/libhotstuff/examples/hotstuff/util.h
+/home/shubh/Desktop/libhotstuff/examples/hotstuff/util.h
 hotstuff/type.h
-/home/shubh/libhotstuff/examples/hotstuff/type.h
+/home/shubh/Desktop/libhotstuff/examples/hotstuff/type.h
 hotstuff/client.h
-/home/shubh/libhotstuff/examples/hotstuff/client.h
+/home/shubh/Desktop/libhotstuff/examples/hotstuff/client.h
 
 include/hotstuff/client.h
 salticidae/msg.h

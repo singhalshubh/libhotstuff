@@ -1,4 +1,4 @@
-# Install script for directory: /home/shubh/libhotstuff/test
+# Install script for directory: /home/shubh/Desktop/libhotstuff/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

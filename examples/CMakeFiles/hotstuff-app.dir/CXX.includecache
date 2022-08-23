@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/shubh/libhotstuff/examples/hotstuff_app.cpp
+/home/shubh/Desktop/libhotstuff/examples/hotstuff_app.cpp
 iostream
 -
 cstring
@@ -22,27 +22,27 @@ unistd.h
 signal.h
 -
 salticidae/stream.h
-/home/shubh/libhotstuff/examples/salticidae/stream.h
+/home/shubh/Desktop/libhotstuff/examples/salticidae/stream.h
 salticidae/util.h
-/home/shubh/libhotstuff/examples/salticidae/util.h
+/home/shubh/Desktop/libhotstuff/examples/salticidae/util.h
 salticidae/network.h
-/home/shubh/libhotstuff/examples/salticidae/network.h
+/home/shubh/Desktop/libhotstuff/examples/salticidae/network.h
 salticidae/msg.h
-/home/shubh/libhotstuff/examples/salticidae/msg.h
+/home/shubh/Desktop/libhotstuff/examples/salticidae/msg.h
 hotstuff/promise.hpp
-/home/shubh/libhotstuff/examples/hotstuff/promise.hpp
+/home/shubh/Desktop/libhotstuff/examples/hotstuff/promise.hpp
 hotstuff/type.h
-/home/shubh/libhotstuff/examples/hotstuff/type.h
+/home/shubh/Desktop/libhotstuff/examples/hotstuff/type.h
 hotstuff/entity.h
-/home/shubh/libhotstuff/examples/hotstuff/entity.h
+/home/shubh/Desktop/libhotstuff/examples/hotstuff/entity.h
 hotstuff/util.h
-/home/shubh/libhotstuff/examples/hotstuff/util.h
+/home/shubh/Desktop/libhotstuff/examples/hotstuff/util.h
 hotstuff/client.h
-/home/shubh/libhotstuff/examples/hotstuff/client.h
+/home/shubh/Desktop/libhotstuff/examples/hotstuff/client.h
 hotstuff/hotstuff.h
-/home/shubh/libhotstuff/examples/hotstuff/hotstuff.h
+/home/shubh/Desktop/libhotstuff/examples/hotstuff/hotstuff.h
 hotstuff/liveness.h
-/home/shubh/libhotstuff/examples/hotstuff/liveness.h
+/home/shubh/Desktop/libhotstuff/examples/hotstuff/liveness.h
 
 include/hotstuff/client.h
 salticidae/msg.h
