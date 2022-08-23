@@ -1,0 +1,1525 @@
+2022-08-22 23:41:46.703483 [net info] loaded configuration from hotstuff.conf
+2022-08-22 23:41:46.703558 [net info] loading extra configuration from hotstuff.gen-sec0.conf
+2022-08-22 23:41:46.706863 [net info] starting all threads...
+2022-08-22 23:41:46.707087 [net info] listening to 10000
+2022-08-22 23:41:46.728339 [net info] starting all threads...
+2022-08-22 23:41:46.728642 [net info] listening to 20000
+2022-08-22 23:41:46.728797 [hotstuff info] ** starting the system with parameters **
+2022-08-22 23:41:46.728813 [hotstuff info] blk_size = 400
+2022-08-22 23:41:46.728821 [hotstuff info] conns = 0
+2022-08-22 23:41:46.728828 [hotstuff info] ** starting the event loop...
+2022-08-22 23:41:46.729914 [net info] created <Conn fd=95 addr=<NetAddr 10.10.1.2:10000> mode=active>
+2022-08-22 23:41:46.730359 [net info] created <Conn fd=97 addr=<NetAddr 10.10.1.3:10000> mode=active>
+2022-08-22 23:41:46.730803 [net info] created <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:41:46.730961 [net info] connected to remote <Conn fd=97 addr=<NetAddr 10.10.1.3:10000> mode=active>
+2022-08-22 23:41:46.730971 [hotstuff warn] network async error: unable to connect: Connection refused
+
+2022-08-22 23:41:46.731020 [net info] eb06817904: lost connection <Conn fd=95 addr=<NetAddr 10.10.1.2:10000> mode=active>
+2022-08-22 23:41:46.731084 [net info] eb06817904: setup connection <Conn fd=97 addr=<NetAddr 10.10.1.3:10000> mode=active>
+2022-08-22 23:41:46.731263 [net info] connected to remote <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:41:46.731377 [net info] eb06817904: setup connection <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:41:46.731724 [net info] eb06817904: lost connection <Conn fd=97 addr=<NetAddr 10.10.1.3:10000> mode=active>
+2022-08-22 23:41:46.732027 [net info] established eb06817904 <---> 0147d3aeb3 (via <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>)
+2022-08-22 23:41:46.732066 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:41:48.350725 [net info] accepted <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:41:48.350798 [net info] eb06817904: setup connection <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:41:48.351746 [net info] established eb06817904 <---> 7c45e1ebeb (via <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>)
+2022-08-22 23:41:48.352460 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:41:48.806525 [net info] accepted <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:41:48.806701 [net info] eb06817904: setup connection <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:41:48.806961 [net info] established eb06817904 <---> 243783d66f (via <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>)
+2022-08-22 23:41:48.807342 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:41:56.711355 [hotstuff info] ===== begin stats =====
+2022-08-22 23:41:56.711402 [hotstuff info] -------- queues -------
+2022-08-22 23:41:56.711413 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:41:56.711422 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:41:56.711431 [hotstuff info] decision_waiting: 0
+2022-08-22 23:41:56.711630 [hotstuff info] -------- misc ---------
+2022-08-22 23:41:56.711645 [hotstuff info] fetched: 0
+2022-08-22 23:41:56.711653 [hotstuff info] delivered: 0
+2022-08-22 23:41:56.711662 [hotstuff info] cmd_cache: 0
+2022-08-22 23:41:56.711671 [hotstuff info] blk_cache: 1
+2022-08-22 23:41:56.711680 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:41:56.711688 [hotstuff info] fetched: 0
+2022-08-22 23:41:56.711696 [hotstuff info] delivered: 0
+2022-08-22 23:41:56.711705 [hotstuff info] decided: 0
+2022-08-22 23:41:56.711713 [hotstuff info] gened: 0
+2022-08-22 23:41:56.711722 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:41:56.711736 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:41:56.711747 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:41:56.711870 [hotstuff info] 7c45e1ebeb: 3(13), 3(13), 0
+2022-08-22 23:41:56.711928 [hotstuff info] 243783d66f: 3(13), 3(13), 0
+2022-08-22 23:41:56.711978 [hotstuff info] 0147d3aeb3: 3(13), 3(13), 0
+2022-08-22 23:41:56.711990 [hotstuff info] sent: 9
+2022-08-22 23:41:56.711999 [hotstuff info] recv: 9
+2022-08-22 23:41:56.712007 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:41:56.712015 [hotstuff info] sent: 9
+2022-08-22 23:41:56.712024 [hotstuff info] recv: 9
+2022-08-22 23:41:56.712032 [hotstuff info] ====== end stats ======
+2022-08-22 23:41:56.712040 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:41:56.712049 [hotstuff info] --- end client msg. ---
+2022-08-22 23:42:06.720177 [hotstuff info] ===== begin stats =====
+2022-08-22 23:42:06.720218 [hotstuff info] -------- queues -------
+2022-08-22 23:42:06.720229 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:42:06.720238 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:42:06.720247 [hotstuff info] decision_waiting: 0
+2022-08-22 23:42:06.720255 [hotstuff info] -------- misc ---------
+2022-08-22 23:42:06.720264 [hotstuff info] fetched: 0
+2022-08-22 23:42:06.720272 [hotstuff info] delivered: 0
+2022-08-22 23:42:06.720281 [hotstuff info] cmd_cache: 0
+2022-08-22 23:42:06.720289 [hotstuff info] blk_cache: 1
+2022-08-22 23:42:06.720298 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:42:06.720306 [hotstuff info] fetched: 0
+2022-08-22 23:42:06.720315 [hotstuff info] delivered: 0
+2022-08-22 23:42:06.720323 [hotstuff info] decided: 0
+2022-08-22 23:42:06.720331 [hotstuff info] gened: 0
+2022-08-22 23:42:06.720340 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:42:06.720351 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:42:06.720362 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:42:06.720459 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:42:06.720516 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:42:06.720567 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:42:06.720579 [hotstuff info] sent: 0
+2022-08-22 23:42:06.720588 [hotstuff info] recv: 0
+2022-08-22 23:42:06.720597 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:42:06.720605 [hotstuff info] sent: 9
+2022-08-22 23:42:06.720614 [hotstuff info] recv: 9
+2022-08-22 23:42:06.720622 [hotstuff info] ====== end stats ======
+2022-08-22 23:42:06.720630 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:42:06.720639 [hotstuff info] --- end client msg. ---
+2022-08-22 23:42:16.727772 [hotstuff info] ===== begin stats =====
+2022-08-22 23:42:16.727813 [hotstuff info] -------- queues -------
+2022-08-22 23:42:16.727824 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:42:16.727833 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:42:16.727842 [hotstuff info] decision_waiting: 0
+2022-08-22 23:42:16.727851 [hotstuff info] -------- misc ---------
+2022-08-22 23:42:16.727859 [hotstuff info] fetched: 0
+2022-08-22 23:42:16.727868 [hotstuff info] delivered: 0
+2022-08-22 23:42:16.727876 [hotstuff info] cmd_cache: 0
+2022-08-22 23:42:16.727884 [hotstuff info] blk_cache: 1
+2022-08-22 23:42:16.727893 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:42:16.727901 [hotstuff info] fetched: 0
+2022-08-22 23:42:16.727909 [hotstuff info] delivered: 0
+2022-08-22 23:42:16.727918 [hotstuff info] decided: 0
+2022-08-22 23:42:16.727926 [hotstuff info] gened: 0
+2022-08-22 23:42:16.727934 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:42:16.727946 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:42:16.727956 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:42:16.728054 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:42:16.728110 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:42:16.728159 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:42:16.728171 [hotstuff info] sent: 0
+2022-08-22 23:42:16.728180 [hotstuff info] recv: 0
+2022-08-22 23:42:16.728188 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:42:16.728197 [hotstuff info] sent: 9
+2022-08-22 23:42:16.728227 [hotstuff info] recv: 9
+2022-08-22 23:42:16.728237 [hotstuff info] ====== end stats ======
+2022-08-22 23:42:16.728246 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:42:16.728254 [hotstuff info] --- end client msg. ---
+2022-08-22 23:42:18.865311 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:42:23.381012 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:42:24.280307 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:42:26.730766 [hotstuff info] ===== begin stats =====
+2022-08-22 23:42:26.730804 [hotstuff info] -------- queues -------
+2022-08-22 23:42:26.730815 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:42:26.730824 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:42:26.730833 [hotstuff info] decision_waiting: 0
+2022-08-22 23:42:26.730841 [hotstuff info] -------- misc ---------
+2022-08-22 23:42:26.730849 [hotstuff info] fetched: 0
+2022-08-22 23:42:26.730858 [hotstuff info] delivered: 0
+2022-08-22 23:42:26.730867 [hotstuff info] cmd_cache: 0
+2022-08-22 23:42:26.730875 [hotstuff info] blk_cache: 1
+2022-08-22 23:42:26.730883 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:42:26.730891 [hotstuff info] fetched: 0
+2022-08-22 23:42:26.730900 [hotstuff info] delivered: 0
+2022-08-22 23:42:26.730908 [hotstuff info] decided: 0
+2022-08-22 23:42:26.730916 [hotstuff info] gened: 0
+2022-08-22 23:42:26.730925 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:42:26.730936 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:42:26.730947 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:42:26.731043 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:42:26.731096 [hotstuff info] 243783d66f: 2(2), 2(2), 0
+2022-08-22 23:42:26.731144 [hotstuff info] 0147d3aeb3: 2(2), 2(2), 0
+2022-08-22 23:42:26.731174 [hotstuff info] sent: 5
+2022-08-22 23:42:26.731183 [hotstuff info] recv: 5
+2022-08-22 23:42:26.731192 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:42:26.731200 [hotstuff info] sent: 14
+2022-08-22 23:42:26.731209 [hotstuff info] recv: 14
+2022-08-22 23:42:26.731217 [hotstuff info] ====== end stats ======
+2022-08-22 23:42:26.731226 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:42:26.731234 [hotstuff info] --- end client msg. ---
+2022-08-22 23:42:36.736854 [hotstuff info] ===== begin stats =====
+2022-08-22 23:42:36.736897 [hotstuff info] -------- queues -------
+2022-08-22 23:42:36.736908 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:42:36.736918 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:42:36.736926 [hotstuff info] decision_waiting: 0
+2022-08-22 23:42:36.736935 [hotstuff info] -------- misc ---------
+2022-08-22 23:42:36.736944 [hotstuff info] fetched: 0
+2022-08-22 23:42:36.736952 [hotstuff info] delivered: 0
+2022-08-22 23:42:36.736961 [hotstuff info] cmd_cache: 0
+2022-08-22 23:42:36.736969 [hotstuff info] blk_cache: 1
+2022-08-22 23:42:36.736978 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:42:36.736986 [hotstuff info] fetched: 0
+2022-08-22 23:42:36.736994 [hotstuff info] delivered: 0
+2022-08-22 23:42:36.737003 [hotstuff info] decided: 0
+2022-08-22 23:42:36.737011 [hotstuff info] gened: 0
+2022-08-22 23:42:36.737019 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:42:36.737031 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:42:36.737041 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:42:36.737140 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:42:36.737194 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:42:36.737244 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:42:36.737256 [hotstuff info] sent: 1
+2022-08-22 23:42:36.737265 [hotstuff info] recv: 1
+2022-08-22 23:42:36.737274 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:42:36.737282 [hotstuff info] sent: 15
+2022-08-22 23:42:36.737290 [hotstuff info] recv: 15
+2022-08-22 23:42:36.737299 [hotstuff info] ====== end stats ======
+2022-08-22 23:42:36.737328 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:42:36.737338 [hotstuff info] --- end client msg. ---
+2022-08-22 23:42:46.742486 [hotstuff info] ===== begin stats =====
+2022-08-22 23:42:46.742532 [hotstuff info] -------- queues -------
+2022-08-22 23:42:46.742544 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:42:46.742553 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:42:46.742562 [hotstuff info] decision_waiting: 0
+2022-08-22 23:42:46.742579 [hotstuff info] -------- misc ---------
+2022-08-22 23:42:46.742589 [hotstuff info] fetched: 0
+2022-08-22 23:42:46.742598 [hotstuff info] delivered: 0
+2022-08-22 23:42:46.742607 [hotstuff info] cmd_cache: 0
+2022-08-22 23:42:46.742615 [hotstuff info] blk_cache: 1
+2022-08-22 23:42:46.742624 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:42:46.742632 [hotstuff info] fetched: 0
+2022-08-22 23:42:46.742640 [hotstuff info] delivered: 0
+2022-08-22 23:42:46.742649 [hotstuff info] decided: 0
+2022-08-22 23:42:46.742657 [hotstuff info] gened: 0
+2022-08-22 23:42:46.742666 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:42:46.742677 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:42:46.742688 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:42:46.742785 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:42:46.742841 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:42:46.742891 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:42:46.742905 [hotstuff info] sent: 0
+2022-08-22 23:42:46.742914 [hotstuff info] recv: 0
+2022-08-22 23:42:46.742922 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:42:46.742930 [hotstuff info] sent: 15
+2022-08-22 23:42:46.742939 [hotstuff info] recv: 15
+2022-08-22 23:42:46.742947 [hotstuff info] ====== end stats ======
+2022-08-22 23:42:46.742956 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:42:46.742964 [hotstuff info] --- end client msg. ---
+2022-08-22 23:42:50.498649 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:42:56.745997 [hotstuff info] ===== begin stats =====
+2022-08-22 23:42:56.746040 [hotstuff info] -------- queues -------
+2022-08-22 23:42:56.746051 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:42:56.746060 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:42:56.746069 [hotstuff info] decision_waiting: 0
+2022-08-22 23:42:56.746078 [hotstuff info] -------- misc ---------
+2022-08-22 23:42:56.746086 [hotstuff info] fetched: 0
+2022-08-22 23:42:56.746095 [hotstuff info] delivered: 0
+2022-08-22 23:42:56.746103 [hotstuff info] cmd_cache: 0
+2022-08-22 23:42:56.746112 [hotstuff info] blk_cache: 1
+2022-08-22 23:42:56.746120 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:42:56.746128 [hotstuff info] fetched: 0
+2022-08-22 23:42:56.746137 [hotstuff info] delivered: 0
+2022-08-22 23:42:56.746145 [hotstuff info] decided: 0
+2022-08-22 23:42:56.746153 [hotstuff info] gened: 0
+2022-08-22 23:42:56.746161 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:42:56.746173 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:42:56.746183 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:42:56.746280 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:42:56.746334 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:42:56.746383 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:42:56.746395 [hotstuff info] sent: 1
+2022-08-22 23:42:56.746404 [hotstuff info] recv: 1
+2022-08-22 23:42:56.746413 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:42:56.746421 [hotstuff info] sent: 16
+2022-08-22 23:42:56.746429 [hotstuff info] recv: 16
+2022-08-22 23:42:56.746438 [hotstuff info] ====== end stats ======
+2022-08-22 23:42:56.746446 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:42:56.746455 [hotstuff info] --- end client msg. ---
+2022-08-22 23:43:02.819293 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:43:06.749332 [hotstuff info] ===== begin stats =====
+2022-08-22 23:43:06.749370 [hotstuff info] -------- queues -------
+2022-08-22 23:43:06.749404 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:43:06.749415 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:43:06.749424 [hotstuff info] decision_waiting: 0
+2022-08-22 23:43:06.749432 [hotstuff info] -------- misc ---------
+2022-08-22 23:43:06.749441 [hotstuff info] fetched: 0
+2022-08-22 23:43:06.749449 [hotstuff info] delivered: 0
+2022-08-22 23:43:06.749458 [hotstuff info] cmd_cache: 0
+2022-08-22 23:43:06.749466 [hotstuff info] blk_cache: 1
+2022-08-22 23:43:06.749474 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:43:06.749483 [hotstuff info] fetched: 0
+2022-08-22 23:43:06.749491 [hotstuff info] delivered: 0
+2022-08-22 23:43:06.749499 [hotstuff info] decided: 0
+2022-08-22 23:43:06.749508 [hotstuff info] gened: 0
+2022-08-22 23:43:06.749516 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:43:06.749527 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:43:06.749538 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:43:06.749636 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:43:06.749690 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:43:06.749738 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:43:06.749751 [hotstuff info] sent: 3
+2022-08-22 23:43:06.749759 [hotstuff info] recv: 3
+2022-08-22 23:43:06.749768 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:43:06.749776 [hotstuff info] sent: 19
+2022-08-22 23:43:06.749784 [hotstuff info] recv: 19
+2022-08-22 23:43:06.749793 [hotstuff info] ====== end stats ======
+2022-08-22 23:43:06.749801 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:43:06.749810 [hotstuff info] --- end client msg. ---
+2022-08-22 23:43:08.566152 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:43:16.751096 [hotstuff info] ===== begin stats =====
+2022-08-22 23:43:16.751138 [hotstuff info] -------- queues -------
+2022-08-22 23:43:16.751164 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:43:16.751175 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:43:16.751184 [hotstuff info] decision_waiting: 0
+2022-08-22 23:43:16.751193 [hotstuff info] -------- misc ---------
+2022-08-22 23:43:16.751201 [hotstuff info] fetched: 0
+2022-08-22 23:43:16.751210 [hotstuff info] delivered: 0
+2022-08-22 23:43:16.751219 [hotstuff info] cmd_cache: 0
+2022-08-22 23:43:16.751227 [hotstuff info] blk_cache: 1
+2022-08-22 23:43:16.751236 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:43:16.751244 [hotstuff info] fetched: 0
+2022-08-22 23:43:16.751252 [hotstuff info] delivered: 0
+2022-08-22 23:43:16.751261 [hotstuff info] decided: 0
+2022-08-22 23:43:16.751269 [hotstuff info] gened: 0
+2022-08-22 23:43:16.751278 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:43:16.751289 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:43:16.751300 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:43:16.751396 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:43:16.751448 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:43:16.751495 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:43:16.751507 [hotstuff info] sent: 2
+2022-08-22 23:43:16.751516 [hotstuff info] recv: 2
+2022-08-22 23:43:16.751524 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:43:16.751532 [hotstuff info] sent: 21
+2022-08-22 23:43:16.751541 [hotstuff info] recv: 21
+2022-08-22 23:43:16.751549 [hotstuff info] ====== end stats ======
+2022-08-22 23:43:16.751558 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:43:16.751566 [hotstuff info] --- end client msg. ---
+2022-08-22 23:43:26.752688 [hotstuff info] ===== begin stats =====
+2022-08-22 23:43:26.752731 [hotstuff info] -------- queues -------
+2022-08-22 23:43:26.752742 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:43:26.752751 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:43:26.752760 [hotstuff info] decision_waiting: 0
+2022-08-22 23:43:26.752768 [hotstuff info] -------- misc ---------
+2022-08-22 23:43:26.752776 [hotstuff info] fetched: 0
+2022-08-22 23:43:26.752805 [hotstuff info] delivered: 0
+2022-08-22 23:43:26.752815 [hotstuff info] cmd_cache: 0
+2022-08-22 23:43:26.752823 [hotstuff info] blk_cache: 1
+2022-08-22 23:43:26.752832 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:43:26.752840 [hotstuff info] fetched: 0
+2022-08-22 23:43:26.752848 [hotstuff info] delivered: 0
+2022-08-22 23:43:26.752857 [hotstuff info] decided: 0
+2022-08-22 23:43:26.752865 [hotstuff info] gened: 0
+2022-08-22 23:43:26.752873 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:43:26.752885 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:43:26.752895 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:43:26.752993 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:43:26.753048 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:43:26.753096 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:43:26.753108 [hotstuff info] sent: 0
+2022-08-22 23:43:26.753117 [hotstuff info] recv: 0
+2022-08-22 23:43:26.753125 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:43:26.753133 [hotstuff info] sent: 21
+2022-08-22 23:43:26.753142 [hotstuff info] recv: 21
+2022-08-22 23:43:26.753150 [hotstuff info] ====== end stats ======
+2022-08-22 23:43:26.753158 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:43:26.753167 [hotstuff info] --- end client msg. ---
+2022-08-22 23:43:28.200495 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:43:36.752885 [hotstuff info] ===== begin stats =====
+2022-08-22 23:43:36.752930 [hotstuff info] -------- queues -------
+2022-08-22 23:43:36.752941 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:43:36.752950 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:43:36.752959 [hotstuff info] decision_waiting: 0
+2022-08-22 23:43:36.752968 [hotstuff info] -------- misc ---------
+2022-08-22 23:43:36.752976 [hotstuff info] fetched: 0
+2022-08-22 23:43:36.752985 [hotstuff info] delivered: 0
+2022-08-22 23:43:36.752993 [hotstuff info] cmd_cache: 0
+2022-08-22 23:43:36.753001 [hotstuff info] blk_cache: 1
+2022-08-22 23:43:36.753010 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:43:36.753018 [hotstuff info] fetched: 0
+2022-08-22 23:43:36.753026 [hotstuff info] delivered: 0
+2022-08-22 23:43:36.753035 [hotstuff info] decided: 0
+2022-08-22 23:43:36.753043 [hotstuff info] gened: 0
+2022-08-22 23:43:36.753051 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:43:36.753063 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:43:36.753074 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:43:36.753172 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:43:36.753227 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:43:36.753276 [hotstuff info] 0147d3aeb3: 2(2), 2(2), 0
+2022-08-22 23:43:36.753289 [hotstuff info] sent: 2
+2022-08-22 23:43:36.753298 [hotstuff info] recv: 2
+2022-08-22 23:43:36.753306 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:43:36.753314 [hotstuff info] sent: 23
+2022-08-22 23:43:36.753323 [hotstuff info] recv: 23
+2022-08-22 23:43:36.753331 [hotstuff info] ====== end stats ======
+2022-08-22 23:43:36.753340 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:43:36.753348 [hotstuff info] --- end client msg. ---
+2022-08-22 23:43:46.761959 [hotstuff info] ===== begin stats =====
+2022-08-22 23:43:46.762004 [hotstuff info] -------- queues -------
+2022-08-22 23:43:46.762015 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:43:46.762024 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:43:46.762033 [hotstuff info] decision_waiting: 0
+2022-08-22 23:43:46.762042 [hotstuff info] -------- misc ---------
+2022-08-22 23:43:46.762050 [hotstuff info] fetched: 0
+2022-08-22 23:43:46.762059 [hotstuff info] delivered: 0
+2022-08-22 23:43:46.762068 [hotstuff info] cmd_cache: 0
+2022-08-22 23:43:46.762076 [hotstuff info] blk_cache: 1
+2022-08-22 23:43:46.762085 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:43:46.762093 [hotstuff info] fetched: 0
+2022-08-22 23:43:46.762102 [hotstuff info] delivered: 0
+2022-08-22 23:43:46.762130 [hotstuff info] decided: 0
+2022-08-22 23:43:46.762140 [hotstuff info] gened: 0
+2022-08-22 23:43:46.762149 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:43:46.762160 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:43:46.762171 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:43:46.762270 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:43:46.762325 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:43:46.762374 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:43:46.762386 [hotstuff info] sent: 1
+2022-08-22 23:43:46.762395 [hotstuff info] recv: 1
+2022-08-22 23:43:46.762404 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:43:46.762412 [hotstuff info] sent: 24
+2022-08-22 23:43:46.762420 [hotstuff info] recv: 24
+2022-08-22 23:43:46.762429 [hotstuff info] ====== end stats ======
+2022-08-22 23:43:46.762437 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:43:46.762446 [hotstuff info] --- end client msg. ---
+2022-08-22 23:43:47.106644 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:43:49.325822 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:43:56.764958 [hotstuff info] ===== begin stats =====
+2022-08-22 23:43:56.765001 [hotstuff info] -------- queues -------
+2022-08-22 23:43:56.765012 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:43:56.765021 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:43:56.765030 [hotstuff info] decision_waiting: 0
+2022-08-22 23:43:56.765039 [hotstuff info] -------- misc ---------
+2022-08-22 23:43:56.765047 [hotstuff info] fetched: 0
+2022-08-22 23:43:56.765056 [hotstuff info] delivered: 0
+2022-08-22 23:43:56.765064 [hotstuff info] cmd_cache: 0
+2022-08-22 23:43:56.765073 [hotstuff info] blk_cache: 1
+2022-08-22 23:43:56.765081 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:43:56.765089 [hotstuff info] fetched: 0
+2022-08-22 23:43:56.765098 [hotstuff info] delivered: 0
+2022-08-22 23:43:56.765106 [hotstuff info] decided: 0
+2022-08-22 23:43:56.765114 [hotstuff info] gened: 0
+2022-08-22 23:43:56.765123 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:43:56.765134 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:43:56.765145 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:43:56.765243 [hotstuff info] 7c45e1ebeb: 2(2), 2(2), 0
+2022-08-22 23:43:56.765297 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:43:56.765345 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:43:56.765357 [hotstuff info] sent: 3
+2022-08-22 23:43:56.765366 [hotstuff info] recv: 3
+2022-08-22 23:43:56.765374 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:43:56.765383 [hotstuff info] sent: 27
+2022-08-22 23:43:56.765391 [hotstuff info] recv: 27
+2022-08-22 23:43:56.765399 [hotstuff info] ====== end stats ======
+2022-08-22 23:43:56.765408 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:43:56.765416 [hotstuff info] --- end client msg. ---
+2022-08-22 23:44:02.643919 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:44:06.769071 [hotstuff info] ===== begin stats =====
+2022-08-22 23:44:06.769110 [hotstuff info] -------- queues -------
+2022-08-22 23:44:06.769120 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:44:06.769129 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:44:06.769138 [hotstuff info] decision_waiting: 0
+2022-08-22 23:44:06.769147 [hotstuff info] -------- misc ---------
+2022-08-22 23:44:06.769155 [hotstuff info] fetched: 0
+2022-08-22 23:44:06.769164 [hotstuff info] delivered: 0
+2022-08-22 23:44:06.769172 [hotstuff info] cmd_cache: 0
+2022-08-22 23:44:06.769181 [hotstuff info] blk_cache: 1
+2022-08-22 23:44:06.769189 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:44:06.769197 [hotstuff info] fetched: 0
+2022-08-22 23:44:06.769206 [hotstuff info] delivered: 0
+2022-08-22 23:44:06.769214 [hotstuff info] decided: 0
+2022-08-22 23:44:06.769223 [hotstuff info] gened: 0
+2022-08-22 23:44:06.769231 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:44:06.769264 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:44:06.769277 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:44:06.769376 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:44:06.769430 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:44:06.769478 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:44:06.769490 [hotstuff info] sent: 1
+2022-08-22 23:44:06.769499 [hotstuff info] recv: 1
+2022-08-22 23:44:06.769508 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:44:06.769516 [hotstuff info] sent: 28
+2022-08-22 23:44:06.769525 [hotstuff info] recv: 28
+2022-08-22 23:44:06.769533 [hotstuff info] ====== end stats ======
+2022-08-22 23:44:06.769542 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:44:06.769550 [hotstuff info] --- end client msg. ---
+2022-08-22 23:44:16.776693 [hotstuff info] ===== begin stats =====
+2022-08-22 23:44:16.776738 [hotstuff info] -------- queues -------
+2022-08-22 23:44:16.776749 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:44:16.776758 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:44:16.776766 [hotstuff info] decision_waiting: 0
+2022-08-22 23:44:16.776775 [hotstuff info] -------- misc ---------
+2022-08-22 23:44:16.776783 [hotstuff info] fetched: 0
+2022-08-22 23:44:16.776792 [hotstuff info] delivered: 0
+2022-08-22 23:44:16.776801 [hotstuff info] cmd_cache: 0
+2022-08-22 23:44:16.776809 [hotstuff info] blk_cache: 1
+2022-08-22 23:44:16.776818 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:44:16.776826 [hotstuff info] fetched: 0
+2022-08-22 23:44:16.776834 [hotstuff info] delivered: 0
+2022-08-22 23:44:16.776843 [hotstuff info] decided: 0
+2022-08-22 23:44:16.776851 [hotstuff info] gened: 0
+2022-08-22 23:44:16.776860 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:44:16.776871 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:44:16.776882 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:44:16.776980 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:44:16.777036 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:44:16.777085 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:44:16.777097 [hotstuff info] sent: 0
+2022-08-22 23:44:16.777106 [hotstuff info] recv: 0
+2022-08-22 23:44:16.777114 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:44:16.777123 [hotstuff info] sent: 28
+2022-08-22 23:44:16.777131 [hotstuff info] recv: 28
+2022-08-22 23:44:16.777140 [hotstuff info] ====== end stats ======
+2022-08-22 23:44:16.777148 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:44:16.777157 [hotstuff info] --- end client msg. ---
+2022-08-22 23:44:19.459376 [net info] accepted <Conn fd=93 addr=<NetAddr 10.10.1.5:57148> mode=passive>
+2022-08-22 23:44:20.743572 [hotstuff info] schedule to impeach the proposer
+2022-08-22 23:44:22.972836 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:44:26.780930 [hotstuff info] ===== begin stats =====
+2022-08-22 23:44:26.780968 [hotstuff info] -------- queues -------
+2022-08-22 23:44:26.780978 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:44:26.780987 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:44:26.780995 [hotstuff info] decision_waiting: 175
+2022-08-22 23:44:26.781004 [hotstuff info] -------- misc ---------
+2022-08-22 23:44:26.781012 [hotstuff info] fetched: 0
+2022-08-22 23:44:26.781021 [hotstuff info] delivered: 8
+2022-08-22 23:44:26.781029 [hotstuff info] cmd_cache: 0
+2022-08-22 23:44:26.781038 [hotstuff info] blk_cache: 9
+2022-08-22 23:44:26.781046 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:44:26.781054 [hotstuff info] fetched: 0
+2022-08-22 23:44:26.781062 [hotstuff info] delivered: 8
+2022-08-22 23:44:26.781071 [hotstuff info] decided: 175
+2022-08-22 23:44:26.781079 [hotstuff info] gened: 0
+2022-08-22 23:44:26.781087 [hotstuff info] avg. parent_size: 1.000
+2022-08-22 23:44:26.781099 [hotstuff info] delivery time: 0.001 avg, 0.000 min, 0.001 max
+2022-08-22 23:44:26.781112 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:44:26.781233 [hotstuff info] 7c45e1ebeb: 8(1040), 8(7664), 0
+2022-08-22 23:44:26.781290 [hotstuff info] 243783d66f: 2(2), 2(2), 0
+2022-08-22 23:44:26.781339 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:44:26.781351 [hotstuff info] sent: 11
+2022-08-22 23:44:26.781360 [hotstuff info] recv: 11
+2022-08-22 23:44:26.781368 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:44:26.781376 [hotstuff info] sent: 39
+2022-08-22 23:44:26.781384 [hotstuff info] recv: 39
+2022-08-22 23:44:26.781392 [hotstuff info] ====== end stats ======
+2022-08-22 23:44:26.781401 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:44:26.781414 [hotstuff info] <NetAddr 10.10.1.5:57148>: 175(13125), 350(2800)
+2022-08-22 23:44:26.781424 [hotstuff info] --- end client msg. ---
+2022-08-22 23:44:27.867680 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:44:36.783411 [hotstuff info] ===== begin stats =====
+2022-08-22 23:44:36.783453 [hotstuff info] -------- queues -------
+2022-08-22 23:44:36.783464 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:44:36.783473 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:44:36.783482 [hotstuff info] decision_waiting: 175
+2022-08-22 23:44:36.783490 [hotstuff info] -------- misc ---------
+2022-08-22 23:44:36.783499 [hotstuff info] fetched: 0
+2022-08-22 23:44:36.783507 [hotstuff info] delivered: 8
+2022-08-22 23:44:36.783516 [hotstuff info] cmd_cache: 0
+2022-08-22 23:44:36.783524 [hotstuff info] blk_cache: 9
+2022-08-22 23:44:36.783533 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:44:36.783541 [hotstuff info] fetched: 0
+2022-08-22 23:44:36.783549 [hotstuff info] delivered: 0
+2022-08-22 23:44:36.783558 [hotstuff info] decided: 0
+2022-08-22 23:44:36.783566 [hotstuff info] gened: 0
+2022-08-22 23:44:36.783574 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:44:36.783586 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:44:36.783596 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:44:36.783697 [hotstuff info] 7c45e1ebeb: 2(2), 2(2), 0
+2022-08-22 23:44:36.783751 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:44:36.783802 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:44:36.783814 [hotstuff info] sent: 2
+2022-08-22 23:44:36.783822 [hotstuff info] recv: 2
+2022-08-22 23:44:36.783831 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:44:36.783839 [hotstuff info] sent: 41
+2022-08-22 23:44:36.783847 [hotstuff info] recv: 41
+2022-08-22 23:44:36.783856 [hotstuff info] ====== end stats ======
+2022-08-22 23:44:36.783864 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:44:36.783877 [hotstuff info] <NetAddr 10.10.1.5:57148>: 0(0), 0(0)
+2022-08-22 23:44:36.783886 [hotstuff info] --- end client msg. ---
+2022-08-22 23:44:40.048030 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:44:46.786476 [hotstuff info] ===== begin stats =====
+2022-08-22 23:44:46.786521 [hotstuff info] -------- queues -------
+2022-08-22 23:44:46.786532 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:44:46.786541 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:44:46.786550 [hotstuff info] decision_waiting: 175
+2022-08-22 23:44:46.786559 [hotstuff info] -------- misc ---------
+2022-08-22 23:44:46.786567 [hotstuff info] fetched: 0
+2022-08-22 23:44:46.786576 [hotstuff info] delivered: 16
+2022-08-22 23:44:46.786584 [hotstuff info] cmd_cache: 0
+2022-08-22 23:44:46.786593 [hotstuff info] blk_cache: 17
+2022-08-22 23:44:46.786601 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:44:46.786609 [hotstuff info] fetched: 0
+2022-08-22 23:44:46.786618 [hotstuff info] delivered: 8
+2022-08-22 23:44:46.786626 [hotstuff info] decided: 175
+2022-08-22 23:44:46.786634 [hotstuff info] gened: 0
+2022-08-22 23:44:46.786643 [hotstuff info] avg. parent_size: 1.000
+2022-08-22 23:44:46.786654 [hotstuff info] delivery time: 0.001 avg, 0.001 min, 0.001 max
+2022-08-22 23:44:46.786666 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:44:46.786786 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:44:46.786842 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:44:46.786891 [hotstuff info] 0147d3aeb3: 9(1041), 9(7857), 0
+2022-08-22 23:44:46.786903 [hotstuff info] sent: 9
+2022-08-22 23:44:46.786912 [hotstuff info] recv: 9
+2022-08-22 23:44:46.786921 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:44:46.786929 [hotstuff info] sent: 50
+2022-08-22 23:44:46.786937 [hotstuff info] recv: 50
+2022-08-22 23:44:46.786945 [hotstuff info] ====== end stats ======
+2022-08-22 23:44:46.786954 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:44:46.786967 [hotstuff info] <NetAddr 10.10.1.5:57148>: 175(13125), 175(1400)
+2022-08-22 23:44:46.786977 [hotstuff info] --- end client msg. ---
+2022-08-22 23:44:55.328352 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:44:56.787826 [hotstuff info] ===== begin stats =====
+2022-08-22 23:44:56.787864 [hotstuff info] -------- queues -------
+2022-08-22 23:44:56.787874 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:44:56.787883 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:44:56.787892 [hotstuff info] decision_waiting: 175
+2022-08-22 23:44:56.787900 [hotstuff info] -------- misc ---------
+2022-08-22 23:44:56.787909 [hotstuff info] fetched: 0
+2022-08-22 23:44:56.787917 [hotstuff info] delivered: 16
+2022-08-22 23:44:56.787926 [hotstuff info] cmd_cache: 0
+2022-08-22 23:44:56.787934 [hotstuff info] blk_cache: 17
+2022-08-22 23:44:56.787943 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:44:56.787951 [hotstuff info] fetched: 0
+2022-08-22 23:44:56.787959 [hotstuff info] delivered: 0
+2022-08-22 23:44:56.787968 [hotstuff info] decided: 0
+2022-08-22 23:44:56.787976 [hotstuff info] gened: 0
+2022-08-22 23:44:56.787984 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:44:56.787996 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:44:56.788006 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:44:56.788104 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:44:56.788158 [hotstuff info] 243783d66f: 2(2), 2(2), 0
+2022-08-22 23:44:56.788209 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:44:56.788220 [hotstuff info] sent: 2
+2022-08-22 23:44:56.788229 [hotstuff info] recv: 2
+2022-08-22 23:44:56.788237 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:44:56.788246 [hotstuff info] sent: 52
+2022-08-22 23:44:56.788254 [hotstuff info] recv: 52
+2022-08-22 23:44:56.788262 [hotstuff info] ====== end stats ======
+2022-08-22 23:44:56.788271 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:44:56.788284 [hotstuff info] <NetAddr 10.10.1.5:57148>: 0(0), 0(0)
+2022-08-22 23:44:56.788293 [hotstuff info] --- end client msg. ---
+2022-08-22 23:45:01.511122 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:45:06.789244 [hotstuff info] ===== begin stats =====
+2022-08-22 23:45:06.789287 [hotstuff info] -------- queues -------
+2022-08-22 23:45:06.789298 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:45:06.789307 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:45:06.789315 [hotstuff info] decision_waiting: 175
+2022-08-22 23:45:06.789324 [hotstuff info] -------- misc ---------
+2022-08-22 23:45:06.789332 [hotstuff info] fetched: 0
+2022-08-22 23:45:06.789341 [hotstuff info] delivered: 16
+2022-08-22 23:45:06.789350 [hotstuff info] cmd_cache: 0
+2022-08-22 23:45:06.789358 [hotstuff info] blk_cache: 17
+2022-08-22 23:45:06.789366 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:45:06.789375 [hotstuff info] fetched: 0
+2022-08-22 23:45:06.789383 [hotstuff info] delivered: 0
+2022-08-22 23:45:06.789392 [hotstuff info] decided: 0
+2022-08-22 23:45:06.789400 [hotstuff info] gened: 0
+2022-08-22 23:45:06.789408 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:45:06.789420 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:45:06.789430 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:45:06.789526 [hotstuff info] 7c45e1ebeb: 2(2), 2(2), 0
+2022-08-22 23:45:06.789611 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:45:06.789663 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:45:06.789677 [hotstuff info] sent: 3
+2022-08-22 23:45:06.789686 [hotstuff info] recv: 3
+2022-08-22 23:45:06.789694 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:45:06.789702 [hotstuff info] sent: 55
+2022-08-22 23:45:06.789711 [hotstuff info] recv: 55
+2022-08-22 23:45:06.789719 [hotstuff info] ====== end stats ======
+2022-08-22 23:45:06.789728 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:45:06.789741 [hotstuff info] <NetAddr 10.10.1.5:57148>: 0(0), 0(0)
+2022-08-22 23:45:06.789751 [hotstuff info] --- end client msg. ---
+2022-08-22 23:45:16.793794 [hotstuff info] ===== begin stats =====
+2022-08-22 23:45:16.793837 [hotstuff info] -------- queues -------
+2022-08-22 23:45:16.793848 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:45:16.793857 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:45:16.793866 [hotstuff info] decision_waiting: 175
+2022-08-22 23:45:16.793875 [hotstuff info] -------- misc ---------
+2022-08-22 23:45:16.793883 [hotstuff info] fetched: 0
+2022-08-22 23:45:16.793892 [hotstuff info] delivered: 25
+2022-08-22 23:45:16.793900 [hotstuff info] cmd_cache: 0
+2022-08-22 23:45:16.793909 [hotstuff info] blk_cache: 26
+2022-08-22 23:45:16.793917 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:45:16.793925 [hotstuff info] fetched: 0
+2022-08-22 23:45:16.793934 [hotstuff info] delivered: 9
+2022-08-22 23:45:16.793942 [hotstuff info] decided: 175
+2022-08-22 23:45:16.793950 [hotstuff info] gened: 0
+2022-08-22 23:45:16.793959 [hotstuff info] avg. parent_size: 1.000
+2022-08-22 23:45:16.793970 [hotstuff info] delivery time: 0.001 avg, 0.001 min, 0.001 max
+2022-08-22 23:45:16.793983 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:45:16.794084 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:45:16.794139 [hotstuff info] 243783d66f: 1(130), 1(13082), 0
+2022-08-22 23:45:16.794189 [hotstuff info] 0147d3aeb3: 8(1040), 8(7856), 0
+2022-08-22 23:45:16.794202 [hotstuff info] sent: 9
+2022-08-22 23:45:16.794211 [hotstuff info] recv: 9
+2022-08-22 23:45:16.794219 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:45:16.794227 [hotstuff info] sent: 64
+2022-08-22 23:45:16.794236 [hotstuff info] recv: 64
+2022-08-22 23:45:16.794244 [hotstuff info] ====== end stats ======
+2022-08-22 23:45:16.794253 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:45:16.794266 [hotstuff info] <NetAddr 10.10.1.5:57148>: 175(13125), 175(1400)
+2022-08-22 23:45:16.794276 [hotstuff info] --- end client msg. ---
+2022-08-22 23:45:21.619970 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:45:26.797963 [hotstuff info] ===== begin stats =====
+2022-08-22 23:45:26.798004 [hotstuff info] -------- queues -------
+2022-08-22 23:45:26.798014 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:45:26.798023 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:45:26.798032 [hotstuff info] decision_waiting: 175
+2022-08-22 23:45:26.798040 [hotstuff info] -------- misc ---------
+2022-08-22 23:45:26.798049 [hotstuff info] fetched: 0
+2022-08-22 23:45:26.798057 [hotstuff info] delivered: 25
+2022-08-22 23:45:26.798066 [hotstuff info] cmd_cache: 0
+2022-08-22 23:45:26.798074 [hotstuff info] blk_cache: 26
+2022-08-22 23:45:26.798083 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:45:26.798091 [hotstuff info] fetched: 0
+2022-08-22 23:45:26.798100 [hotstuff info] delivered: 0
+2022-08-22 23:45:26.798108 [hotstuff info] decided: 0
+2022-08-22 23:45:26.798116 [hotstuff info] gened: 0
+2022-08-22 23:45:26.798124 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:45:26.798136 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:45:26.798146 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:45:26.798243 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:45:26.798297 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:45:26.798347 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:45:26.798381 [hotstuff info] sent: 2
+2022-08-22 23:45:26.798392 [hotstuff info] recv: 2
+2022-08-22 23:45:26.798400 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:45:26.798408 [hotstuff info] sent: 66
+2022-08-22 23:45:26.798417 [hotstuff info] recv: 66
+2022-08-22 23:45:26.798425 [hotstuff info] ====== end stats ======
+2022-08-22 23:45:26.798433 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:45:26.798446 [hotstuff info] <NetAddr 10.10.1.5:57148>: 0(0), 0(0)
+2022-08-22 23:45:26.798456 [hotstuff info] --- end client msg. ---
+2022-08-22 23:45:27.275986 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:45:36.800250 [hotstuff info] ===== begin stats =====
+2022-08-22 23:45:36.800292 [hotstuff info] -------- queues -------
+2022-08-22 23:45:36.800303 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:45:36.800312 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:45:36.800321 [hotstuff info] decision_waiting: 175
+2022-08-22 23:45:36.800329 [hotstuff info] -------- misc ---------
+2022-08-22 23:45:36.800338 [hotstuff info] fetched: 0
+2022-08-22 23:45:36.800346 [hotstuff info] delivered: 25
+2022-08-22 23:45:36.800355 [hotstuff info] cmd_cache: 0
+2022-08-22 23:45:36.800363 [hotstuff info] blk_cache: 26
+2022-08-22 23:45:36.800372 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:45:36.800380 [hotstuff info] fetched: 0
+2022-08-22 23:45:36.800389 [hotstuff info] delivered: 0
+2022-08-22 23:45:36.800397 [hotstuff info] decided: 0
+2022-08-22 23:45:36.800405 [hotstuff info] gened: 0
+2022-08-22 23:45:36.800414 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:45:36.800425 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:45:36.800436 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:45:36.800534 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:45:36.800590 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:45:36.800640 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:45:36.800651 [hotstuff info] sent: 2
+2022-08-22 23:45:36.800660 [hotstuff info] recv: 2
+2022-08-22 23:45:36.800669 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:45:36.800677 [hotstuff info] sent: 68
+2022-08-22 23:45:36.800685 [hotstuff info] recv: 68
+2022-08-22 23:45:36.800694 [hotstuff info] ====== end stats ======
+2022-08-22 23:45:36.800702 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:45:36.800711 [hotstuff info] --- end client msg. ---
+2022-08-22 23:45:37.529975 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:45:41.465169 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465236 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465256 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465271 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465286 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465301 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465316 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465331 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465345 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465360 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465375 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465389 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465404 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465419 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465433 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465448 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465510 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465529 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465544 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465559 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465573 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465588 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465602 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465617 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465632 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465646 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465661 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465675 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465690 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465770 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465800 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465815 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465830 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465845 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465859 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465874 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465893 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465908 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465923 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465937 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465952 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465967 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465981 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.465996 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.466011 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.466025 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.466040 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.466054 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.466069 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:41.466084 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:46.800189 [hotstuff info] ===== begin stats =====
+2022-08-22 23:45:46.800230 [hotstuff info] -------- queues -------
+2022-08-22 23:45:46.800240 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:45:46.800249 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:45:46.800258 [hotstuff info] decision_waiting: 125
+2022-08-22 23:45:46.800267 [hotstuff info] -------- misc ---------
+2022-08-22 23:45:46.800325 [hotstuff info] fetched: 0
+2022-08-22 23:45:46.800338 [hotstuff info] delivered: 35
+2022-08-22 23:45:46.800347 [hotstuff info] cmd_cache: 0
+2022-08-22 23:45:46.800358 [hotstuff info] blk_cache: 36
+2022-08-22 23:45:46.800367 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:45:46.800375 [hotstuff info] fetched: 0
+2022-08-22 23:45:46.800384 [hotstuff info] delivered: 10
+2022-08-22 23:45:46.800393 [hotstuff info] decided: 400
+2022-08-22 23:45:46.800462 [hotstuff info] gened: 0
+2022-08-22 23:45:46.800475 [hotstuff info] avg. parent_size: 1.000
+2022-08-22 23:45:46.800487 [hotstuff info] delivery time: 0.001 avg, 0.001 min, 0.001 max
+2022-08-22 23:45:46.800499 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:45:46.800597 [hotstuff info] 7c45e1ebeb: 2(2), 2(2), 0
+2022-08-22 23:45:46.800649 [hotstuff info] 243783d66f: 3(390), 4(5128), 0
+2022-08-22 23:45:46.800699 [hotstuff info] 0147d3aeb3: 6(780), 7(5974), 0
+2022-08-22 23:45:46.800711 [hotstuff info] sent: 11
+2022-08-22 23:45:46.800720 [hotstuff info] recv: 13
+2022-08-22 23:45:46.800728 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:45:46.800736 [hotstuff info] sent: 79
+2022-08-22 23:45:46.800745 [hotstuff info] recv: 81
+2022-08-22 23:45:46.800753 [hotstuff info] ====== end stats ======
+2022-08-22 23:45:46.800762 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:45:46.800770 [hotstuff info] --- end client msg. ---
+2022-08-22 23:45:52.471523 [hotstuff info] schedule to impeach the proposer
+2022-08-22 23:45:56.481881 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.481926 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.481944 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.481959 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.481974 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.481989 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482004 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482018 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482033 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482048 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482062 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482077 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482092 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482106 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482121 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482135 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482150 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482165 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482179 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482194 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482208 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482223 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482237 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482252 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482266 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482281 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482295 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482310 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482324 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482339 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482353 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482368 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482409 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482427 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482442 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482456 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482471 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482485 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482500 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482514 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482529 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482544 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482558 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482573 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482587 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482602 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482617 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482631 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482646 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482660 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482675 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482689 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482704 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482719 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482733 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482748 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482762 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482777 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482791 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482806 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482820 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482835 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482849 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482864 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482879 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482893 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482908 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482922 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482937 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482951 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482966 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482981 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.482995 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483010 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483024 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483051 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483067 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483081 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483096 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483110 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483125 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483139 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483169 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483185 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483201 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483216 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483230 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483245 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483260 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483274 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483289 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483304 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483318 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483333 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483347 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483362 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483377 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483391 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483406 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483420 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483435 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483450 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483464 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483479 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483493 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483508 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483523 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483537 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483552 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483566 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483581 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.483596 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484402 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484423 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484438 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484452 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484467 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484482 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484520 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484537 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484552 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484567 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484581 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484596 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.484611 [hotstuff warn] unable to send to the client: client does not exist
+2022-08-22 23:45:56.800231 [hotstuff info] ===== begin stats =====
+2022-08-22 23:45:56.800269 [hotstuff info] -------- queues -------
+2022-08-22 23:45:56.800279 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:45:56.800288 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:45:56.800297 [hotstuff info] decision_waiting: 0
+2022-08-22 23:45:56.800305 [hotstuff info] -------- misc ---------
+2022-08-22 23:45:56.800314 [hotstuff info] fetched: 0
+2022-08-22 23:45:56.800322 [hotstuff info] delivered: 35
+2022-08-22 23:45:56.800331 [hotstuff info] cmd_cache: 0
+2022-08-22 23:45:56.800339 [hotstuff info] blk_cache: 40
+2022-08-22 23:45:56.800348 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:45:56.800356 [hotstuff info] fetched: 0
+2022-08-22 23:45:56.800364 [hotstuff info] delivered: 0
+2022-08-22 23:45:56.800372 [hotstuff info] decided: 125
+2022-08-22 23:45:56.800381 [hotstuff info] gened: 0
+2022-08-22 23:45:56.800389 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:45:56.800400 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:45:56.800411 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:45:56.800508 [hotstuff info] 7c45e1ebeb: 4(1128), 4(520), 0
+2022-08-22 23:45:56.800561 [hotstuff info] 243783d66f: 5(1129), 5(521), 0
+2022-08-22 23:45:56.800610 [hotstuff info] 0147d3aeb3: 4(1128), 4(520), 0
+2022-08-22 23:45:56.800621 [hotstuff info] sent: 13
+2022-08-22 23:45:56.800630 [hotstuff info] recv: 13
+2022-08-22 23:45:56.800638 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:45:56.800647 [hotstuff info] sent: 92
+2022-08-22 23:45:56.800655 [hotstuff info] recv: 94
+2022-08-22 23:45:56.800663 [hotstuff info] ====== end stats ======
+2022-08-22 23:45:56.800672 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:45:56.800680 [hotstuff info] --- end client msg. ---
+2022-08-22 23:45:57.624040 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:46:00.553889 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:46:06.800819 [hotstuff info] ===== begin stats =====
+2022-08-22 23:46:06.800859 [hotstuff info] -------- queues -------
+2022-08-22 23:46:06.800869 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:46:06.800879 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:46:06.800887 [hotstuff info] decision_waiting: 0
+2022-08-22 23:46:06.800896 [hotstuff info] -------- misc ---------
+2022-08-22 23:46:06.800905 [hotstuff info] fetched: 0
+2022-08-22 23:46:06.800913 [hotstuff info] delivered: 35
+2022-08-22 23:46:06.800922 [hotstuff info] cmd_cache: 0
+2022-08-22 23:46:06.800930 [hotstuff info] blk_cache: 40
+2022-08-22 23:46:06.800939 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:46:06.800947 [hotstuff info] fetched: 0
+2022-08-22 23:46:06.800955 [hotstuff info] delivered: 0
+2022-08-22 23:46:06.800964 [hotstuff info] decided: 0
+2022-08-22 23:46:06.800972 [hotstuff info] gened: 0
+2022-08-22 23:46:06.800980 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:46:06.800992 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:46:06.801002 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:46:06.801099 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:46:06.801153 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:46:06.801201 [hotstuff info] 0147d3aeb3: 2(2), 2(2), 0
+2022-08-22 23:46:06.801213 [hotstuff info] sent: 3
+2022-08-22 23:46:06.801246 [hotstuff info] recv: 3
+2022-08-22 23:46:06.801257 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:46:06.801265 [hotstuff info] sent: 95
+2022-08-22 23:46:06.801273 [hotstuff info] recv: 97
+2022-08-22 23:46:06.801282 [hotstuff info] ====== end stats ======
+2022-08-22 23:46:06.801290 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:46:06.801299 [hotstuff info] --- end client msg. ---
+2022-08-22 23:46:16.810438 [hotstuff info] ===== begin stats =====
+2022-08-22 23:46:16.810480 [hotstuff info] -------- queues -------
+2022-08-22 23:46:16.810491 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:46:16.810500 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:46:16.810509 [hotstuff info] decision_waiting: 0
+2022-08-22 23:46:16.810517 [hotstuff info] -------- misc ---------
+2022-08-22 23:46:16.810526 [hotstuff info] fetched: 0
+2022-08-22 23:46:16.810534 [hotstuff info] delivered: 35
+2022-08-22 23:46:16.810543 [hotstuff info] cmd_cache: 0
+2022-08-22 23:46:16.810551 [hotstuff info] blk_cache: 40
+2022-08-22 23:46:16.810560 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:46:16.810568 [hotstuff info] fetched: 0
+2022-08-22 23:46:16.810576 [hotstuff info] delivered: 0
+2022-08-22 23:46:16.810585 [hotstuff info] decided: 0
+2022-08-22 23:46:16.810593 [hotstuff info] gened: 0
+2022-08-22 23:46:16.810601 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:46:16.810613 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:46:16.810624 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:46:16.810722 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:46:16.810778 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:46:16.810827 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:46:16.810838 [hotstuff info] sent: 0
+2022-08-22 23:46:16.810847 [hotstuff info] recv: 0
+2022-08-22 23:46:16.810856 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:46:16.810864 [hotstuff info] sent: 95
+2022-08-22 23:46:16.810873 [hotstuff info] recv: 97
+2022-08-22 23:46:16.810881 [hotstuff info] ====== end stats ======
+2022-08-22 23:46:16.810889 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:46:16.810898 [hotstuff info] --- end client msg. ---
+2022-08-22 23:46:22.517288 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:46:26.814619 [hotstuff info] ===== begin stats =====
+2022-08-22 23:46:26.814658 [hotstuff info] -------- queues -------
+2022-08-22 23:46:26.814668 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:46:26.814677 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:46:26.814686 [hotstuff info] decision_waiting: 0
+2022-08-22 23:46:26.814694 [hotstuff info] -------- misc ---------
+2022-08-22 23:46:26.814703 [hotstuff info] fetched: 0
+2022-08-22 23:46:26.814711 [hotstuff info] delivered: 35
+2022-08-22 23:46:26.814720 [hotstuff info] cmd_cache: 0
+2022-08-22 23:46:26.814729 [hotstuff info] blk_cache: 40
+2022-08-22 23:46:26.814737 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:46:26.814745 [hotstuff info] fetched: 0
+2022-08-22 23:46:26.814754 [hotstuff info] delivered: 0
+2022-08-22 23:46:26.814762 [hotstuff info] decided: 0
+2022-08-22 23:46:26.814771 [hotstuff info] gened: 0
+2022-08-22 23:46:26.814779 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:46:26.814790 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:46:26.814801 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:46:26.814897 [hotstuff info] 7c45e1ebeb: 2(2), 2(2), 0
+2022-08-22 23:46:26.814949 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:46:26.814998 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:46:26.815009 [hotstuff info] sent: 2
+2022-08-22 23:46:26.815018 [hotstuff info] recv: 2
+2022-08-22 23:46:26.815026 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:46:26.815035 [hotstuff info] sent: 97
+2022-08-22 23:46:26.815043 [hotstuff info] recv: 99
+2022-08-22 23:46:26.815052 [hotstuff info] ====== end stats ======
+2022-08-22 23:46:26.815060 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:46:26.815092 [hotstuff info] --- end client msg. ---
+2022-08-22 23:46:32.913518 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:46:36.818427 [hotstuff info] ===== begin stats =====
+2022-08-22 23:46:36.818465 [hotstuff info] -------- queues -------
+2022-08-22 23:46:36.818475 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:46:36.818484 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:46:36.818493 [hotstuff info] decision_waiting: 0
+2022-08-22 23:46:36.818502 [hotstuff info] -------- misc ---------
+2022-08-22 23:46:36.818510 [hotstuff info] fetched: 0
+2022-08-22 23:46:36.818519 [hotstuff info] delivered: 35
+2022-08-22 23:46:36.818527 [hotstuff info] cmd_cache: 0
+2022-08-22 23:46:36.818536 [hotstuff info] blk_cache: 40
+2022-08-22 23:46:36.818544 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:46:36.818553 [hotstuff info] fetched: 0
+2022-08-22 23:46:36.818561 [hotstuff info] delivered: 0
+2022-08-22 23:46:36.818569 [hotstuff info] decided: 0
+2022-08-22 23:46:36.818578 [hotstuff info] gened: 0
+2022-08-22 23:46:36.818586 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:46:36.818598 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:46:36.818608 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:46:36.818707 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:46:36.818762 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:46:36.818814 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:46:36.818825 [hotstuff info] sent: 2
+2022-08-22 23:46:36.818834 [hotstuff info] recv: 2
+2022-08-22 23:46:36.818843 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:46:36.818851 [hotstuff info] sent: 99
+2022-08-22 23:46:36.818859 [hotstuff info] recv: 101
+2022-08-22 23:46:36.818868 [hotstuff info] ====== end stats ======
+2022-08-22 23:46:36.818876 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:46:36.818885 [hotstuff info] --- end client msg. ---
+2022-08-22 23:46:43.141000 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:46:46.821685 [hotstuff info] ===== begin stats =====
+2022-08-22 23:46:46.821723 [hotstuff info] -------- queues -------
+2022-08-22 23:46:46.821733 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:46:46.821742 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:46:46.821751 [hotstuff info] decision_waiting: 0
+2022-08-22 23:46:46.821760 [hotstuff info] -------- misc ---------
+2022-08-22 23:46:46.821768 [hotstuff info] fetched: 0
+2022-08-22 23:46:46.821777 [hotstuff info] delivered: 35
+2022-08-22 23:46:46.821785 [hotstuff info] cmd_cache: 0
+2022-08-22 23:46:46.821794 [hotstuff info] blk_cache: 40
+2022-08-22 23:46:46.821802 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:46:46.821811 [hotstuff info] fetched: 0
+2022-08-22 23:46:46.821819 [hotstuff info] delivered: 0
+2022-08-22 23:46:46.821828 [hotstuff info] decided: 0
+2022-08-22 23:46:46.821836 [hotstuff info] gened: 0
+2022-08-22 23:46:46.821844 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:46:46.821856 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:46:46.821866 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:46:46.821963 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:46:46.822015 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:46:46.822063 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:46:46.822075 [hotstuff info] sent: 1
+2022-08-22 23:46:46.822084 [hotstuff info] recv: 1
+2022-08-22 23:46:46.822092 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:46:46.822100 [hotstuff info] sent: 100
+2022-08-22 23:46:46.822109 [hotstuff info] recv: 102
+2022-08-22 23:46:46.822117 [hotstuff info] ====== end stats ======
+2022-08-22 23:46:46.822126 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:46:46.822134 [hotstuff info] --- end client msg. ---
+2022-08-22 23:46:56.826374 [hotstuff info] ===== begin stats =====
+2022-08-22 23:46:56.826418 [hotstuff info] -------- queues -------
+2022-08-22 23:46:56.826452 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:46:56.826463 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:46:56.826472 [hotstuff info] decision_waiting: 0
+2022-08-22 23:46:56.826480 [hotstuff info] -------- misc ---------
+2022-08-22 23:46:56.826489 [hotstuff info] fetched: 0
+2022-08-22 23:46:56.826497 [hotstuff info] delivered: 35
+2022-08-22 23:46:56.826506 [hotstuff info] cmd_cache: 0
+2022-08-22 23:46:56.826514 [hotstuff info] blk_cache: 40
+2022-08-22 23:46:56.826523 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:46:56.826531 [hotstuff info] fetched: 0
+2022-08-22 23:46:56.826539 [hotstuff info] delivered: 0
+2022-08-22 23:46:56.826548 [hotstuff info] decided: 0
+2022-08-22 23:46:56.826556 [hotstuff info] gened: 0
+2022-08-22 23:46:56.826564 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:46:56.826576 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:46:56.826586 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:46:56.826685 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:46:56.826738 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:46:56.826786 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:46:56.826799 [hotstuff info] sent: 2
+2022-08-22 23:46:56.826808 [hotstuff info] recv: 2
+2022-08-22 23:46:56.826817 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:46:56.826825 [hotstuff info] sent: 102
+2022-08-22 23:46:56.826833 [hotstuff info] recv: 104
+2022-08-22 23:46:56.826842 [hotstuff info] ====== end stats ======
+2022-08-22 23:46:56.826850 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:46:56.826859 [hotstuff info] --- end client msg. ---
+2022-08-22 23:47:03.960127 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:47:05.110064 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:47:06.827821 [hotstuff info] ===== begin stats =====
+2022-08-22 23:47:06.827859 [hotstuff info] -------- queues -------
+2022-08-22 23:47:06.827869 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:47:06.827879 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:47:06.827887 [hotstuff info] decision_waiting: 0
+2022-08-22 23:47:06.827896 [hotstuff info] -------- misc ---------
+2022-08-22 23:47:06.827904 [hotstuff info] fetched: 0
+2022-08-22 23:47:06.827913 [hotstuff info] delivered: 35
+2022-08-22 23:47:06.827922 [hotstuff info] cmd_cache: 0
+2022-08-22 23:47:06.827930 [hotstuff info] blk_cache: 40
+2022-08-22 23:47:06.827939 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:47:06.827947 [hotstuff info] fetched: 0
+2022-08-22 23:47:06.827956 [hotstuff info] delivered: 0
+2022-08-22 23:47:06.827964 [hotstuff info] decided: 0
+2022-08-22 23:47:06.827972 [hotstuff info] gened: 0
+2022-08-22 23:47:06.827981 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:47:06.827992 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:47:06.828003 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:47:06.828101 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:47:06.828156 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:47:06.828206 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:47:06.828218 [hotstuff info] sent: 3
+2022-08-22 23:47:06.828227 [hotstuff info] recv: 3
+2022-08-22 23:47:06.828235 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:47:06.828244 [hotstuff info] sent: 105
+2022-08-22 23:47:06.828252 [hotstuff info] recv: 107
+2022-08-22 23:47:06.828261 [hotstuff info] ====== end stats ======
+2022-08-22 23:47:06.828270 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:47:06.828278 [hotstuff info] --- end client msg. ---
+2022-08-22 23:47:16.831409 [hotstuff info] ===== begin stats =====
+2022-08-22 23:47:16.831455 [hotstuff info] -------- queues -------
+2022-08-22 23:47:16.831466 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:47:16.831475 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:47:16.831483 [hotstuff info] decision_waiting: 0
+2022-08-22 23:47:16.831492 [hotstuff info] -------- misc ---------
+2022-08-22 23:47:16.831522 [hotstuff info] fetched: 0
+2022-08-22 23:47:16.831533 [hotstuff info] delivered: 35
+2022-08-22 23:47:16.831542 [hotstuff info] cmd_cache: 0
+2022-08-22 23:47:16.831550 [hotstuff info] blk_cache: 40
+2022-08-22 23:47:16.831559 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:47:16.831567 [hotstuff info] fetched: 0
+2022-08-22 23:47:16.831575 [hotstuff info] delivered: 0
+2022-08-22 23:47:16.831583 [hotstuff info] decided: 0
+2022-08-22 23:47:16.831592 [hotstuff info] gened: 0
+2022-08-22 23:47:16.831600 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:47:16.831612 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:47:16.831622 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:47:16.831721 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:47:16.831777 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:47:16.831825 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:47:16.831837 [hotstuff info] sent: 0
+2022-08-22 23:47:16.831846 [hotstuff info] recv: 0
+2022-08-22 23:47:16.831854 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:47:16.831862 [hotstuff info] sent: 105
+2022-08-22 23:47:16.831871 [hotstuff info] recv: 107
+2022-08-22 23:47:16.831879 [hotstuff info] ====== end stats ======
+2022-08-22 23:47:16.831888 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:47:16.831896 [hotstuff info] --- end client msg. ---
+2022-08-22 23:47:22.704838 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:47:26.834037 [hotstuff info] ===== begin stats =====
+2022-08-22 23:47:26.834074 [hotstuff info] -------- queues -------
+2022-08-22 23:47:26.834085 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:47:26.834094 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:47:26.834103 [hotstuff info] decision_waiting: 0
+2022-08-22 23:47:26.834111 [hotstuff info] -------- misc ---------
+2022-08-22 23:47:26.834120 [hotstuff info] fetched: 0
+2022-08-22 23:47:26.834128 [hotstuff info] delivered: 35
+2022-08-22 23:47:26.834137 [hotstuff info] cmd_cache: 0
+2022-08-22 23:47:26.834146 [hotstuff info] blk_cache: 40
+2022-08-22 23:47:26.834155 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:47:26.834163 [hotstuff info] fetched: 0
+2022-08-22 23:47:26.834171 [hotstuff info] delivered: 0
+2022-08-22 23:47:26.834180 [hotstuff info] decided: 0
+2022-08-22 23:47:26.834188 [hotstuff info] gened: 0
+2022-08-22 23:47:26.834197 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:47:26.834208 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:47:26.834219 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:47:26.834314 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:47:26.834369 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:47:26.834418 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:47:26.834429 [hotstuff info] sent: 1
+2022-08-22 23:47:26.834438 [hotstuff info] recv: 1
+2022-08-22 23:47:26.834447 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:47:26.834455 [hotstuff info] sent: 106
+2022-08-22 23:47:26.834464 [hotstuff info] recv: 108
+2022-08-22 23:47:26.834472 [hotstuff info] ====== end stats ======
+2022-08-22 23:47:26.834481 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:47:26.834489 [hotstuff info] --- end client msg. ---
+2022-08-22 23:47:36.835672 [hotstuff info] ===== begin stats =====
+2022-08-22 23:47:36.835712 [hotstuff info] -------- queues -------
+2022-08-22 23:47:36.835722 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:47:36.835731 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:47:36.835740 [hotstuff info] decision_waiting: 0
+2022-08-22 23:47:36.835749 [hotstuff info] -------- misc ---------
+2022-08-22 23:47:36.835757 [hotstuff info] fetched: 0
+2022-08-22 23:47:36.835765 [hotstuff info] delivered: 35
+2022-08-22 23:47:36.835774 [hotstuff info] cmd_cache: 0
+2022-08-22 23:47:36.835783 [hotstuff info] blk_cache: 40
+2022-08-22 23:47:36.835791 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:47:36.835800 [hotstuff info] fetched: 0
+2022-08-22 23:47:36.835831 [hotstuff info] delivered: 0
+2022-08-22 23:47:36.835841 [hotstuff info] decided: 0
+2022-08-22 23:47:36.835850 [hotstuff info] gened: 0
+2022-08-22 23:47:36.835858 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:47:36.835870 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:47:36.835880 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:47:36.835980 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:47:36.836035 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:47:36.836083 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:47:36.836097 [hotstuff info] sent: 2
+2022-08-22 23:47:36.836105 [hotstuff info] recv: 2
+2022-08-22 23:47:36.836114 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:47:36.836122 [hotstuff info] sent: 108
+2022-08-22 23:47:36.836131 [hotstuff info] recv: 110
+2022-08-22 23:47:36.836139 [hotstuff info] ====== end stats ======
+2022-08-22 23:47:36.836148 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:47:36.836156 [hotstuff info] --- end client msg. ---
+2022-08-22 23:47:41.849928 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:47:44.677491 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:47:46.835752 [hotstuff info] ===== begin stats =====
+2022-08-22 23:47:46.835797 [hotstuff info] -------- queues -------
+2022-08-22 23:47:46.835808 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:47:46.835817 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:47:46.835826 [hotstuff info] decision_waiting: 0
+2022-08-22 23:47:46.835844 [hotstuff info] -------- misc ---------
+2022-08-22 23:47:46.835853 [hotstuff info] fetched: 0
+2022-08-22 23:47:46.835862 [hotstuff info] delivered: 35
+2022-08-22 23:47:46.835871 [hotstuff info] cmd_cache: 0
+2022-08-22 23:47:46.835880 [hotstuff info] blk_cache: 40
+2022-08-22 23:47:46.835888 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:47:46.835896 [hotstuff info] fetched: 0
+2022-08-22 23:47:46.835905 [hotstuff info] delivered: 0
+2022-08-22 23:47:46.835913 [hotstuff info] decided: 0
+2022-08-22 23:47:46.835921 [hotstuff info] gened: 0
+2022-08-22 23:47:46.835930 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:47:46.835941 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:47:46.835952 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:47:46.836048 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:47:46.836101 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:47:46.836151 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:47:46.836164 [hotstuff info] sent: 3
+2022-08-22 23:47:46.836174 [hotstuff info] recv: 3
+2022-08-22 23:47:46.836182 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:47:46.836190 [hotstuff info] sent: 111
+2022-08-22 23:47:46.836199 [hotstuff info] recv: 113
+2022-08-22 23:47:46.836207 [hotstuff info] ====== end stats ======
+2022-08-22 23:47:46.836216 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:47:46.836224 [hotstuff info] --- end client msg. ---
+2022-08-22 23:47:56.846292 [hotstuff info] ===== begin stats =====
+2022-08-22 23:47:56.846334 [hotstuff info] -------- queues -------
+2022-08-22 23:47:56.846345 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:47:56.846354 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:47:56.846363 [hotstuff info] decision_waiting: 0
+2022-08-22 23:47:56.846371 [hotstuff info] -------- misc ---------
+2022-08-22 23:47:56.846380 [hotstuff info] fetched: 0
+2022-08-22 23:47:56.846388 [hotstuff info] delivered: 35
+2022-08-22 23:47:56.846397 [hotstuff info] cmd_cache: 0
+2022-08-22 23:47:56.846405 [hotstuff info] blk_cache: 40
+2022-08-22 23:47:56.846414 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:47:56.846422 [hotstuff info] fetched: 0
+2022-08-22 23:47:56.846430 [hotstuff info] delivered: 0
+2022-08-22 23:47:56.846439 [hotstuff info] decided: 0
+2022-08-22 23:47:56.846447 [hotstuff info] gened: 0
+2022-08-22 23:47:56.846455 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:47:56.846489 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:47:56.846502 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:47:56.846602 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:47:56.846658 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:47:56.846707 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:47:56.846719 [hotstuff info] sent: 0
+2022-08-22 23:47:56.846728 [hotstuff info] recv: 0
+2022-08-22 23:47:56.846736 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:47:56.846745 [hotstuff info] sent: 111
+2022-08-22 23:47:56.846753 [hotstuff info] recv: 113
+2022-08-22 23:47:56.846762 [hotstuff info] ====== end stats ======
+2022-08-22 23:47:56.846770 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:47:56.846778 [hotstuff info] --- end client msg. ---
+2022-08-22 23:48:04.281725 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:48:06.849297 [hotstuff info] ===== begin stats =====
+2022-08-22 23:48:06.849335 [hotstuff info] -------- queues -------
+2022-08-22 23:48:06.849345 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:48:06.849354 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:48:06.849363 [hotstuff info] decision_waiting: 0
+2022-08-22 23:48:06.849372 [hotstuff info] -------- misc ---------
+2022-08-22 23:48:06.849380 [hotstuff info] fetched: 0
+2022-08-22 23:48:06.849389 [hotstuff info] delivered: 35
+2022-08-22 23:48:06.849397 [hotstuff info] cmd_cache: 0
+2022-08-22 23:48:06.849406 [hotstuff info] blk_cache: 40
+2022-08-22 23:48:06.849414 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:48:06.849423 [hotstuff info] fetched: 0
+2022-08-22 23:48:06.849431 [hotstuff info] delivered: 0
+2022-08-22 23:48:06.849439 [hotstuff info] decided: 0
+2022-08-22 23:48:06.849448 [hotstuff info] gened: 0
+2022-08-22 23:48:06.849456 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:48:06.849468 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:48:06.849478 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:48:06.849576 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:48:06.849629 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:48:06.849678 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:48:06.849691 [hotstuff info] sent: 1
+2022-08-22 23:48:06.849700 [hotstuff info] recv: 1
+2022-08-22 23:48:06.849708 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:48:06.849717 [hotstuff info] sent: 112
+2022-08-22 23:48:06.849725 [hotstuff info] recv: 114
+2022-08-22 23:48:06.849733 [hotstuff info] ====== end stats ======
+2022-08-22 23:48:06.849742 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:48:06.849750 [hotstuff info] --- end client msg. ---
+2022-08-22 23:48:16.849553 [hotstuff info] ===== begin stats =====
+2022-08-22 23:48:16.849598 [hotstuff info] -------- queues -------
+2022-08-22 23:48:16.849608 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:48:16.849617 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:48:16.849626 [hotstuff info] decision_waiting: 0
+2022-08-22 23:48:16.849635 [hotstuff info] -------- misc ---------
+2022-08-22 23:48:16.849643 [hotstuff info] fetched: 0
+2022-08-22 23:48:16.849652 [hotstuff info] delivered: 35
+2022-08-22 23:48:16.849660 [hotstuff info] cmd_cache: 0
+2022-08-22 23:48:16.849669 [hotstuff info] blk_cache: 40
+2022-08-22 23:48:16.849677 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:48:16.849686 [hotstuff info] fetched: 0
+2022-08-22 23:48:16.849694 [hotstuff info] delivered: 0
+2022-08-22 23:48:16.849702 [hotstuff info] decided: 0
+2022-08-22 23:48:16.849711 [hotstuff info] gened: 0
+2022-08-22 23:48:16.849719 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:48:16.849731 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:48:16.849742 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:48:16.849841 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:48:16.849895 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:48:16.849944 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:48:16.849980 [hotstuff info] sent: 3
+2022-08-22 23:48:16.849991 [hotstuff info] recv: 3
+2022-08-22 23:48:16.849999 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:48:16.850007 [hotstuff info] sent: 115
+2022-08-22 23:48:16.850016 [hotstuff info] recv: 117
+2022-08-22 23:48:16.850024 [hotstuff info] ====== end stats ======
+2022-08-22 23:48:16.850033 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:48:16.850041 [hotstuff info] --- end client msg. ---
+2022-08-22 23:48:21.800105 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:48:26.854152 [hotstuff info] ===== begin stats =====
+2022-08-22 23:48:26.854193 [hotstuff info] -------- queues -------
+2022-08-22 23:48:26.854204 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:48:26.854213 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:48:26.854222 [hotstuff info] decision_waiting: 0
+2022-08-22 23:48:26.854253 [hotstuff info] -------- misc ---------
+2022-08-22 23:48:26.854402 [hotstuff info] fetched: 0
+2022-08-22 23:48:26.854416 [hotstuff info] delivered: 35
+2022-08-22 23:48:26.854424 [hotstuff info] cmd_cache: 0
+2022-08-22 23:48:26.854433 [hotstuff info] blk_cache: 40
+2022-08-22 23:48:26.854442 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:48:26.854450 [hotstuff info] fetched: 0
+2022-08-22 23:48:26.854459 [hotstuff info] delivered: 0
+2022-08-22 23:48:26.854467 [hotstuff info] decided: 0
+2022-08-22 23:48:26.854475 [hotstuff info] gened: 0
+2022-08-22 23:48:26.854484 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:48:26.854496 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:48:26.854506 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:48:26.854604 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:48:26.854657 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:48:26.854707 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:48:26.854719 [hotstuff info] sent: 1
+2022-08-22 23:48:26.854728 [hotstuff info] recv: 1
+2022-08-22 23:48:26.854736 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:48:26.854744 [hotstuff info] sent: 116
+2022-08-22 23:48:26.854753 [hotstuff info] recv: 118
+2022-08-22 23:48:26.854761 [hotstuff info] ====== end stats ======
+2022-08-22 23:48:26.854769 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:48:26.854778 [hotstuff info] --- end client msg. ---
+2022-08-22 23:48:29.269420 [net info] eb06817904: ping from <Conn fd=94 addr=<NetAddr 10.10.1.2:37374> mode=passive>
+2022-08-22 23:48:36.860115 [hotstuff info] ===== begin stats =====
+2022-08-22 23:48:36.860155 [hotstuff info] -------- queues -------
+2022-08-22 23:48:36.860165 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:48:36.860174 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:48:36.860183 [hotstuff info] decision_waiting: 0
+2022-08-22 23:48:36.860192 [hotstuff info] -------- misc ---------
+2022-08-22 23:48:36.860200 [hotstuff info] fetched: 0
+2022-08-22 23:48:36.860208 [hotstuff info] delivered: 35
+2022-08-22 23:48:36.860217 [hotstuff info] cmd_cache: 0
+2022-08-22 23:48:36.860225 [hotstuff info] blk_cache: 40
+2022-08-22 23:48:36.860234 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:48:36.860242 [hotstuff info] fetched: 0
+2022-08-22 23:48:36.860250 [hotstuff info] delivered: 0
+2022-08-22 23:48:36.860259 [hotstuff info] decided: 0
+2022-08-22 23:48:36.860267 [hotstuff info] gened: 0
+2022-08-22 23:48:36.860275 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:48:36.860287 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:48:36.860297 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:48:36.860394 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:48:36.860449 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:48:36.860498 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:48:36.860509 [hotstuff info] sent: 1
+2022-08-22 23:48:36.860518 [hotstuff info] recv: 1
+2022-08-22 23:48:36.860527 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:48:36.860559 [hotstuff info] sent: 117
+2022-08-22 23:48:36.860570 [hotstuff info] recv: 119
+2022-08-22 23:48:36.860578 [hotstuff info] ====== end stats ======
+2022-08-22 23:48:36.860587 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:48:36.860595 [hotstuff info] --- end client msg. ---
+2022-08-22 23:48:45.832551 [net info] eb06817904: ping from <Conn fd=92 addr=<NetAddr 10.10.1.3:45310> mode=passive>
+2022-08-22 23:48:46.861278 [hotstuff info] ===== begin stats =====
+2022-08-22 23:48:46.861317 [hotstuff info] -------- queues -------
+2022-08-22 23:48:46.861327 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:48:46.861336 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:48:46.861345 [hotstuff info] decision_waiting: 0
+2022-08-22 23:48:46.861354 [hotstuff info] -------- misc ---------
+2022-08-22 23:48:46.861362 [hotstuff info] fetched: 0
+2022-08-22 23:48:46.861371 [hotstuff info] delivered: 35
+2022-08-22 23:48:46.861379 [hotstuff info] cmd_cache: 0
+2022-08-22 23:48:46.861388 [hotstuff info] blk_cache: 40
+2022-08-22 23:48:46.861396 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:48:46.861404 [hotstuff info] fetched: 0
+2022-08-22 23:48:46.861413 [hotstuff info] delivered: 0
+2022-08-22 23:48:46.861421 [hotstuff info] decided: 0
+2022-08-22 23:48:46.861429 [hotstuff info] gened: 0
+2022-08-22 23:48:46.861438 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:48:46.861449 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:48:46.861459 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:48:46.861557 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:48:46.861611 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:48:46.861660 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:48:46.861672 [hotstuff info] sent: 2
+2022-08-22 23:48:46.861680 [hotstuff info] recv: 2
+2022-08-22 23:48:46.861689 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:48:46.861697 [hotstuff info] sent: 119
+2022-08-22 23:48:46.861705 [hotstuff info] recv: 121
+2022-08-22 23:48:46.861714 [hotstuff info] ====== end stats ======
+2022-08-22 23:48:46.861722 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:48:46.861730 [hotstuff info] --- end client msg. ---
+2022-08-22 23:48:52.765450 [net info] eb06817904: ping from <Conn fd=99 addr=<NetAddr 10.10.1.4:10000> mode=active>
+2022-08-22 23:48:56.863206 [hotstuff info] ===== begin stats =====
+2022-08-22 23:48:56.863248 [hotstuff info] -------- queues -------
+2022-08-22 23:48:56.863258 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:48:56.863267 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:48:56.863276 [hotstuff info] decision_waiting: 0
+2022-08-22 23:48:56.863285 [hotstuff info] -------- misc ---------
+2022-08-22 23:48:56.863293 [hotstuff info] fetched: 0
+2022-08-22 23:48:56.863302 [hotstuff info] delivered: 35
+2022-08-22 23:48:56.863310 [hotstuff info] cmd_cache: 0
+2022-08-22 23:48:56.863319 [hotstuff info] blk_cache: 40
+2022-08-22 23:48:56.863327 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:48:56.863336 [hotstuff info] fetched: 0
+2022-08-22 23:48:56.863344 [hotstuff info] delivered: 0
+2022-08-22 23:48:56.863352 [hotstuff info] decided: 0
+2022-08-22 23:48:56.863361 [hotstuff info] gened: 0
+2022-08-22 23:48:56.863369 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:48:56.863381 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:48:56.863391 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:48:56.863490 [hotstuff info] 7c45e1ebeb: 1(1), 1(1), 0
+2022-08-22 23:48:56.863544 [hotstuff info] 243783d66f: 0(0), 0(0), 0
+2022-08-22 23:48:56.863595 [hotstuff info] 0147d3aeb3: 1(1), 1(1), 0
+2022-08-22 23:48:56.863607 [hotstuff info] sent: 2
+2022-08-22 23:48:56.863616 [hotstuff info] recv: 2
+2022-08-22 23:48:56.863624 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:48:56.863632 [hotstuff info] sent: 121
+2022-08-22 23:48:56.863641 [hotstuff info] recv: 123
+2022-08-22 23:48:56.863649 [hotstuff info] ====== end stats ======
+2022-08-22 23:48:56.863658 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:48:56.863690 [hotstuff info] --- end client msg. ---
+2022-08-22 23:49:06.866404 [hotstuff info] ===== begin stats =====
+2022-08-22 23:49:06.866447 [hotstuff info] -------- queues -------
+2022-08-22 23:49:06.866457 [hotstuff info] blk_fetch_waiting: 0
+2022-08-22 23:49:06.866467 [hotstuff info] blk_delivery_waiting: 0
+2022-08-22 23:49:06.866475 [hotstuff info] decision_waiting: 0
+2022-08-22 23:49:06.866484 [hotstuff info] -------- misc ---------
+2022-08-22 23:49:06.866492 [hotstuff info] fetched: 0
+2022-08-22 23:49:06.866501 [hotstuff info] delivered: 35
+2022-08-22 23:49:06.866509 [hotstuff info] cmd_cache: 0
+2022-08-22 23:49:06.866517 [hotstuff info] blk_cache: 40
+2022-08-22 23:49:06.866526 [hotstuff info] ------ misc (10s) -----
+2022-08-22 23:49:06.866534 [hotstuff info] fetched: 0
+2022-08-22 23:49:06.866542 [hotstuff info] delivered: 0
+2022-08-22 23:49:06.866551 [hotstuff info] decided: 0
+2022-08-22 23:49:06.866559 [hotstuff info] gened: 0
+2022-08-22 23:49:06.866567 [hotstuff info] avg. parent_size: 0.000
+2022-08-22 23:49:06.866578 [hotstuff info] delivery time: 0.000 avg, 0.000 min, 0.000 max
+2022-08-22 23:49:06.866589 [hotstuff info] --- replica msg. (10s) ---
+2022-08-22 23:49:06.866686 [hotstuff info] 7c45e1ebeb: 0(0), 0(0), 0
+2022-08-22 23:49:06.866739 [hotstuff info] 243783d66f: 1(1), 1(1), 0
+2022-08-22 23:49:06.866788 [hotstuff info] 0147d3aeb3: 0(0), 0(0), 0
+2022-08-22 23:49:06.866800 [hotstuff info] sent: 1
+2022-08-22 23:49:06.866809 [hotstuff info] recv: 1
+2022-08-22 23:49:06.866817 [hotstuff info] --- replica msg. total ---
+2022-08-22 23:49:06.866825 [hotstuff info] sent: 122
+2022-08-22 23:49:06.866834 [hotstuff info] recv: 124
+2022-08-22 23:49:06.866842 [hotstuff info] ====== end stats ======
+2022-08-22 23:49:06.866851 [hotstuff info] --- client msg. (10s) ---
+2022-08-22 23:49:06.866859 [hotstuff info] --- end client msg. ---
